@@ -26,7 +26,7 @@ prevBtn.addEventListener("click", movePrev);
 
 let autoPlay = setInterval(() => {
   moveNext();
-}, 7000);
+}, 5000);
 
 function moveNext() {
   let currentMargin = parseInt(mainCard.style.marginLeft);
